@@ -1,0 +1,129 @@
+.logoIcon,
+.navbarChild {
+  position: relative;
+  max-width: 100%;
+}
+.navbarChild {
+  height: 100px;
+  width: 1920px;
+  background-color: var(--color-white);
+  display: none;
+}
+.logoIcon {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.logoContainer {
+  align-self: stretch;
+  width: 244.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+}
+.dchV,
+.hiP,
+.traCu,
+.trangCh,
+.vnBnLut {
+  text-decoration: none;
+  position: relative;
+  line-height: 20px;
+  color: inherit;
+  display: inline-block;
+  min-width: 81px;
+  white-space: nowrap;
+}
+.dchV,
+.hiP,
+.traCu,
+.vnBnLut {
+  min-width: 61px;
+}
+.dchV,
+.hiP,
+.vnBnLut {
+  min-width: 62px;
+}
+.dchV,
+.vnBnLut {
+  min-width: 100px;
+}
+.dchV {
+  min-width: 59px;
+}
+.pageLinks,
+.pages {
+  display: flex;
+  align-items: flex-start;
+}
+.pages {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.pageLinks {
+  width: 465px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.login {
+  height: 60px;
+  flex: 1;
+  z-index: 1;
+}
+.userOptions {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.navbar,
+.userOptionsWrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.userOptionsWrapper {
+  width: 307px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.navbar {
+  align-self: stretch;
+  height: 100px;
+  background-color: var(--color-white);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-xl) 0 var(--padding-64xl);
+  gap: var(--gap-201xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .navbar {
+    gap: var(--gap-91xl);
+    padding-left: var(--padding-22xl);
+    box-sizing: border-box;
+  }
+}

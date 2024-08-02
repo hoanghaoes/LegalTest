@@ -1,0 +1,58 @@
+.df1Icon {
+  height: 90px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.illustrationContainer {
+  width: 194px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 63px 0 62px;
+  box-sizing: border-box;
+}
+.traCuThng {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.content {
+  align-self: stretch;
+  background-color: var(--color-darkslategray);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-xl) 35px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.home,
+.maincontent {
+  position: relative;
+  overflow: hidden;
+}
+.maincontent {
+  align-self: stretch;
+  height: 765px;
+  flex-shrink: 0;
+  display: none;
+}
+.home {
+  width: 100%;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 765px;
+  line-height: normal;
+  letter-spacing: normal;
+}
